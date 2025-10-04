@@ -1,0 +1,364 @@
+/* Basic styles for the page */
+.container {
+  padding: 0 2rem;
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary-color);
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 15px var(--primary-color-glow);
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--muted-foreground);
+  margin-top: 1rem;
+}
+
+/* Search form styles */
+.searchForm {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 0.5rem;
+}
+.searchInputContainer {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+}
+
+.searchInput {
+  flex-grow: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background-color: transparent;
+  color: var(--foreground);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px var(--primary-color-glow), 0 0 10px var(--primary-color-glow);
+}
+
+.searchButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchButton:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.searchButton:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Advanced Search Styles */
+.advancedButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--foreground);
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.advancedButton:hover {
+  background-color: var(--card-background);
+  border-color: var(--primary-color);
+}
+
+.advancedSearchContainer {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-end;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1;
+}
+
+.filterGroup label {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.datePickerGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.datePickerGroup span {
+  color: var(--muted-foreground);
+}
+
+/* Override react-datepicker input style */
+.datePickerInput {
+  width: 100%; /* Make it responsive */
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  background-color: var(--card-background) !important;
+  color: var(--foreground) !important; /* Use !important to override library styles */
+}
+
+.resetButton {
+  composes: advancedButton; /* Inherit styles from advancedButton */
+  color: var(--muted-foreground);
+  background-color: transparent;
+  border-color: var(--border-color);
+}
+
+.resetButton:hover {
+  color: var(--foreground);
+  border-color: var(--muted-foreground);
+}
+
+/* Results styles */
+.resultsContainer {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.patentCard {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.patentCardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.patentCard:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 15px var(--primary-color-glow);
+}
+
+.patentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.patentTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 0;
+}
+
+.patentId {
+  font-family: monospace;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  background-color: var(--background);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+.patentAbstract {
+  color: var(--muted-foreground);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.patentFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.similarButton {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--muted-foreground);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.similarButton:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.error {
+  color: #ef4444;
+  margin-top: 1rem;
+}
+
+/* Highlight style */
+.patentCard mark {
+  background-color: var(--primary-color);
+  color: var(--background);
+  padding: 0 2px;
+}
+
+/* Pagination Styles */
+.paginationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.paginationInfo {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.paginationControls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.paginationButton {
+  composes: advancedButton;
+  padding: 0.5rem 1rem;
+}
+
+.paginationButton:disabled {
+  background-color: transparent;
+  color: var(--border-color);
+  cursor: not-allowed;
+  border-color: var(--border-color);
+}
+
+.paginationButton:disabled:hover {
+  background-color: transparent;
+}
+
+/* Skeleton Loader Styles */
+@keyframes skeleton-loading {
+  0% {
+    background-color: #2a2a2a;
+  }
+  50% {
+    background-color: #3a3a3a;
+  }
+  100% {
+    background-color: #2a2a2a;
+  }
+}
+
+.skeletonCard {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.skeletonTitle,
+.skeletonText {
+  border-radius: 0.25rem;
+  animation: skeleton-loading 1.5s infinite ease-in-out;
+}
+
+.skeletonTitle {
+  height: 1.25rem;
+  width: 75%;
+  margin-bottom: 1.25rem;
+}
+
+.skeletonText {
+  height: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Spinner Styles */
+.spinner {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

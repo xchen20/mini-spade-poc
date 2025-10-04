@@ -1,0 +1,114 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.backLink {
+  color: var(--muted-foreground);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  align-self: flex-start;
+}
+
+.backLink:hover {
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--foreground);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.metaInfo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+}
+
+.patentId {
+  font-family: monospace;
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+}
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+
+/* Status-specific colors can be added here */
+
+.section {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px var(--primary-color-glow);
+}
+
+.inventorList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.inventorList li {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+}
+
+.abstract {
+  line-height: 1.8;
+  color: var(--foreground);
+  font-size: 1.1rem;
+}
+
+.claims {
+  background-color: var(--card-background);
+  border-left: 3px solid var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.claims p {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--foreground);
+}
+
+.cpcCode {
+  font-family: monospace;
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}

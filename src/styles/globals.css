@@ -1,0 +1,17 @@
+:root {
+  /* Inspired by gardenintel.com */
+  --background: #0D0D0D; /* A very dark charcoal */
+  --foreground: #E0E0E0; /* Soft white for text */
+  --muted-foreground: #888888; /* Grey for less important text */
+  --card-background: #1A1A1A;
+  --border-color: #333333;
+  --primary-color: #00FFA3; /* The vibrant, glowing green */
+  --primary-color-glow: rgba(0, 255, 163, 0.2);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

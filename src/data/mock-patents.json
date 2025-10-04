@@ -1,0 +1,494 @@
+[
+  {
+    "id": "US-11023824-B2",
+    "title": "System and method for natural language processing in computational genomics",
+    "abstract": "A system that utilizes advanced machine learning models and natural language processing to analyze and interpret genomic data from unstructured text. This enhances the speed and accuracy of genetic research, particularly in identifying gene-disease associations. The core of the system is a novel transformer architecture.",
+    "inventors": ["Adi Sidapara", "Justin Mack"],
+    "publicationDate": "2023-06-01",
+    "relevanceScore": 0.95,
+    "assignee": "Garden Intelligence Inc.",
+    "status": "Active",
+    "cpcCodes": ["G16B 20/20", "G06F 40/30"],
+    "claims": [
+      "1. A computer-implemented method for identifying gene-disease associations, comprising: receiving a natural language query specifying a disease; processing the query using a trained transformer model to extract semantic features; searching a database of genomic literature based on the extracted semantic features; and presenting a ranked list of genes associated with the specified disease."
+    ]
+  },
+  {
+    "id": "US-10915689-B2",
+    "title": "AI-driven platform for prior art discovery and extraction",
+    "abstract": "An artificial intelligence platform designed to streamline the patent process by automating the discovery and extraction of prior art. The platform uses semantic search and a knowledge graph to identify relevant documents and generate invalidity charts. This AI-driven approach significantly reduces manual labor.",
+    "inventors": ["John Doe", "Jane Smith"],
+    "publicationDate": "2024-01-18",
+    "relevanceScore": 0.92,
+    "assignee": "IP Innovations LLC",
+    "status": "Active",
+    "cpcCodes": ["G06F 16/9535", "G06N 20/00"],
+    "claims": [
+      "1. A method for prior art discovery, comprising: receiving an input describing an invention; constructing a knowledge graph representing key concepts of the invention; performing a semantic search on a patent database using nodes from the knowledge graph as query vectors; and generating a ranked list of prior art documents based on semantic similarity scores."
+    ]
+  },
+  {
+    "id": "US-10586187-B2",
+    "title": "Method for detecting patent infringement using machine learning",
+    "abstract": "A method that analyzes competitor websites, product descriptions, and other public content to detect potential patent infringements. It provides a risk assessment score for each potential infringement by comparing product features against patent claims using natural language processing.",
+    "inventors": ["Emily White", "Michael Brown"],
+    "publicationDate": "2023-03-23",
+    "relevanceScore": 0.88,
+    "assignee": "LegalTech Solutions",
+    "status": "Active",
+    "cpcCodes": ["G06Q 50/18", "G06F 40/20"],
+    "claims": [
+      "1. A computer-implemented method for detecting potential patent infringement, comprising: automatically crawling a plurality of competitor websites to extract product descriptions; parsing the extracted product descriptions to identify product features; comparing the identified product features against a set of patent claims using a natural language inference model; and assigning a risk score based on the comparison."
+    ]
+  },
+  {
+    "id": "US-20230042297-A1",
+    "title": "Freedom-to-Operate (FTO) analysis tool with prior art mapping",
+    "abstract": "A tool that maps prior art landscapes against a company's inventions to identify white spaces and potential FTO risks. It visualizes the patent landscape to aid in strategic decision-making. The mapping is generated through clustering algorithms based on patent text similarity.",
+    "inventors": ["Chris Green"],
+    "publicationDate": "2022-11-10",
+    "relevanceScore": 0.85,
+    "assignee": "Strategy AI Corp.",
+    "status": "Pending",
+    "cpcCodes": ["G06Q 10/06", "G06F 16/35"],
+    "claims": [
+      "1. A method for freedom-to-operate analysis, comprising: receiving a description of a proposed invention; identifying a plurality of prior art documents relevant to the proposed invention; applying a clustering algorithm to the prior art documents to generate a patent landscape map; and visually indicating a position of the proposed invention on the map to identify a level of risk."
+    ]
+  },
+  {
+    "id": "WO-2023028332-A1",
+    "title": "Comprehensive patent landscapes for chemical structures (Iris)",
+    "abstract": "Provides comprehensive patent landscapes for chemical structures, aiding in drug discovery and chemical research. The system, named Iris, allows for complex chemical query searches and substructure analysis within patent documents.",
+    "inventors": ["Sarah Blue", "David Grey"],
+    "publicationDate": "2024-02-29",
+    "relevanceScore": 0.98,
+    "assignee": "PharmaGen Inc.",
+    "status": "Pending",
+    "cpcCodes": ["G16C 20/70", "C07D 213/74"],
+    "claims": [
+      "1. A system for generating a patent landscape for a chemical structure, comprising: a user interface for inputting a chemical structure query; a database of patent documents indexed by chemical structure; a search module for performing substructure and similarity searches on the database; and a visualization module for displaying search results as an interactive landscape."
+    ]
+  },
+  {
+    "id": "US-10846598-B2",
+    "title": "Deep learning for patent classification and search",
+    "abstract": "A system employing deep learning models, specifically convolutional neural networks (CNNs), for the automatic classification of patents into technical categories. This improves the relevance and speed of patent search operations by pre-filtering large datasets.",
+    "inventors": ["Alex Ray", "Ben Carter"],
+    "publicationDate": "2021-11-23",
+    "relevanceScore": 0.89,
+    "assignee": "Alphabet Inc.",
+    "status": "Active",
+    "cpcCodes": ["G06N 3/08", "G06F 16/332"],
+    "claims": [
+      "1. A method of classifying a patent document, comprising: converting text and drawings of the patent document into a multi-modal embedding; inputting the multi-modal embedding into a trained convolutional neural network; and receiving, from the neural network, a classification code corresponding to a technical category."
+    ]
+  },
+  {
+    "id": "US-9633017-B2",
+    "title": "Semantic patent search engine",
+    "abstract": "A search engine that goes beyond keyword matching by understanding the semantic meaning of a query. It uses word embeddings and vector space models to find conceptually similar patents, even if they do not share the same keywords. This is a form of semantic search.",
+    "inventors": ["Laura Palmer", "Dale Cooper"],
+    "publicationDate": "2017-04-25",
+    "relevanceScore": 0.91,
+    "assignee": "SearchNext Ltd.",
+    "status": "Expired",
+    "cpcCodes": ["G06F 16/335", "G06F 16/9535"],
+    "claims": [
+      "1. A method for searching a database of documents, comprising: receiving a natural language query; converting the query into a query vector using a pre-trained word embedding model; comparing the query vector to a plurality of pre-computed document vectors in a vector space; and ranking the documents based on a cosine similarity between the query vector and each of the document vectors."
+    ]
+  },
+  {
+    "id": "US-11194934-B2",
+    "title": "Generating invalidity contentions using natural language processing",
+    "abstract": "An automated system that assists legal professionals by generating draft invalidity contentions. It takes a target patent's claims and uses natural language processing to search for and identify prior art references that may invalidate those claims, formatting the output into a chart.",
+    "inventors": ["Justin Mack", "Adi Sidapara"],
+    "publicationDate": "2021-12-07",
+    "relevanceScore": 0.96,
+    "assignee": "Garden Intelligence Inc.",
+    "status": "Active",
+    "cpcCodes": ["G06F 40/35", "G06Q 50/18"],
+    "claims": [
+      "1. A computer-implemented method for generating an invalidity contention chart, comprising: parsing a claim of a target patent into a plurality of claim limitations; for each claim limitation, identifying one or more prior art references that disclose the limitation using a natural language processing model; and arranging the identified prior art references and the claim limitations into a structured chart format."
+    ]
+  },
+  {
+    "id": "EP-3987654-A1",
+    "title": "AI-assisted claim chart generation",
+    "abstract": "A tool that automates the creation of claim charts for patent litigation. The AI identifies elements in a product's documentation that correspond to the claims of a patent, highlighting potential areas of infringement or invalidity. The AI is a key part of this process.",
+    "inventors": ["Peter Jones"],
+    "publicationDate": "2022-05-15",
+    "relevanceScore": 0.87,
+    "assignee": "Litigation Dynamics",
+    "status": "Pending",
+    "cpcCodes": ["G06F 16/34", "G06F 40/285"],
+    "claims": [
+      "1. A method for generating a claim chart, comprising: receiving a patent and a set of product documents; using a trained artificial intelligence model to identify text segments in the product documents that correspond to limitations of a claim in the patent; and presenting the identified text segments alongside the corresponding claim limitations in a user interface."
+    ]
+  },
+  {
+    "id": "US-11580388-B2",
+    "title": "Drug discovery using generative AI models",
+    "abstract": "A computational method for de novo drug discovery that uses generative adversarial networks (GANs) to propose novel chemical structures with desired properties. This accelerates the early stages of pharmaceutical research and development.",
+    "inventors": ["Walter White", "Jesse Pinkman"],
+    "publicationDate": "2023-02-14",
+    "relevanceScore": 0.93,
+    "assignee": "Heisenberg Pharma",
+    "status": "Active",
+    "cpcCodes": ["G16C 20/30", "G16H 30/40"],
+    "claims": [
+      "1. A method for identifying a candidate drug molecule, comprising: training a generative adversarial network (GAN) on a database of known drug molecules; providing a set of desired chemical properties to the trained GAN; and generating, from the GAN, a novel chemical structure predicted to have the desired properties."
+    ]
+  },
+  {
+    "id": "US-11234567-B1",
+    "title": "CRISPR-Cas9 system for in-vivo gene editing and therapy",
+    "abstract": "A method for therapeutic in-vivo gene editing using an adeno-associated virus (AAV) vector to deliver a CRISPR-Cas9 system. The system includes a guide RNA targeting a specific genomic locus associated with a genetic disorder, enabling permanent correction of the underlying mutation. This gene editing technology is a breakthrough.",
+    "inventors": ["Jennifer Doudna", "Emmanuelle Charpentier"],
+    "publicationDate": "2022-08-19",
+    "relevanceScore": 0.97,
+    "assignee": "University of California",
+    "status": "Active",
+    "cpcCodes": ["C12N 15/907", "A61K 48/00"],
+    "claims": [
+      "1. A method of treating a genetic disease in a subject, comprising administering to the subject a composition comprising an adeno-associated virus (AAV) vector, wherein the AAV vector encodes a Cas9 protein and a guide RNA configured to target a disease-associated gene."
+    ]
+  },
+  {
+    "id": "WO-2021098765-A1",
+    "title": "Lipid nanoparticle formulations for mRNA vaccine delivery",
+    "abstract": "Novel lipid nanoparticle (LNP) compositions for the efficient encapsulation and intracellular delivery of messenger RNA (mRNA). These formulations enhance the stability and translational efficacy of mRNA-based vaccines and therapeutics, a key component of modern vaccine technology.",
+    "inventors": ["Katalin Kariko", "Drew Weissman"],
+    "publicationDate": "2021-05-20",
+    "relevanceScore": 0.94,
+    "assignee": "BioNTech SE",
+    "status": "Active",
+    "cpcCodes": ["A61K 9/127", "A61K 39/0011"],
+    "claims": [
+      "1. A lipid nanoparticle composition for the delivery of an RNA molecule, comprising: a cationic lipid; a phospholipid; cholesterol; and a PEG-lipid, wherein the RNA molecule is encapsulated within the nanoparticle."
+    ]
+  },
+  {
+    "id": "US-11444888-B2",
+    "title": "Federated learning system for privacy-preserving machine learning",
+    "abstract": "A decentralized machine learning approach, known as federated learning, that trains a global model across multiple devices without exchanging raw data. This preserves user privacy while allowing for collaborative model training. The system uses secure aggregation protocols to protect individual contributions.",
+    "inventors": ["Brendan McMahan", "Daniel Ramage"],
+    "publicationDate": "2023-09-12",
+    "relevanceScore": 0.92,
+    "assignee": "Google LLC",
+    "status": "Active",
+    "cpcCodes": ["G06N 20/20", "H04L 9/32"],
+    "claims": [
+      "1. A method for training a machine learning model, comprising: distributing a global model to a plurality of client devices; training local models on the client devices using local data; generating model updates from the trained local models; securely aggregating the model updates at a central server to produce an updated global model; and distributing the updated global model to the client devices."
+    ]
+  },
+  {
+    "id": "US-10777123-B2",
+    "title": "Real-time ray tracing using a denoising autoencoder",
+    "abstract": "A method for accelerating real-time ray tracing in computer graphics. It involves rendering a noisy image with a reduced number of rays per pixel, and then using a deep learning-based denoising autoencoder to reconstruct a high-quality final image. This significantly improves graphics performance.",
+    "inventors": ["Jensen Huang", "David Luebke"],
+    "publicationDate": "2020-09-15",
+    "relevanceScore": 0.86,
+    "assignee": "NVIDIA Corporation",
+    "status": "Active",
+    "cpcCodes": ["G06T 15/06", "G06N 3/08"],
+    "claims": [
+      "1. A method for rendering a graphics image, comprising: generating a noisy image by tracing a first, reduced number of rays per pixel; inputting the noisy image into a trained denoising autoencoder neural network; and outputting, from the neural network, a final, denoised image."
+    ]
+  },
+  {
+    "id": "US-11601234-B2",
+    "title": "Bioinformatics pipeline for single-cell RNA sequencing analysis",
+    "abstract": "An automated bioinformatics software pipeline for processing and analyzing single-cell RNA sequencing (scRNA-seq) data. The pipeline includes steps for quality control, normalization, dimensionality reduction, and cell clustering, enabling researchers to identify novel cell types and states from complex biological samples.",
+    "inventors": ["Aviv Regev", "Sarah Teichmann"],
+    "publicationDate": "2023-07-25",
+    "relevanceScore": 0.95,
+    "assignee": "Broad Institute, Inc.",
+    "status": "Active",
+    "cpcCodes": ["G16B 30/10", "G16B 25/00"],
+    "claims": [
+      "1. A computer-implemented method for analyzing single-cell RNA sequencing data, comprising: receiving a raw gene expression matrix; performing a quality control step to filter out low-quality cells; normalizing the gene expression data; applying a dimensionality reduction algorithm to the normalized data; and performing a clustering algorithm on the reduced-dimension data to identify cell clusters."
+    ]
+  },
+  {
+    "id": "EP-4123456-A1",
+    "title": "Quantum algorithm for optimization problems in logistics",
+    "abstract": "A hybrid quantum-classical algorithm designed to solve complex combinatorial optimization problems, such as the Traveling Salesperson Problem, in logistics and supply chain management. The algorithm leverages a quantum approximate optimization algorithm (QAOA) to explore a vast solution space more efficiently than classical computers.",
+    "inventors": ["John Preskill", "Peter Shor"],
+    "publicationDate": "2024-03-05",
+    "relevanceScore": 0.84,
+    "assignee": "Quantum Innovations",
+    "status": "Pending",
+    "cpcCodes": ["G06N 10/00", "G06Q 10/08"],
+    "claims": [
+      "1. A method for solving an optimization problem, comprising: encoding the optimization problem as a Hamiltonian; preparing a quantum state on a quantum processor; applying a sequence of quantum gates corresponding to a quantum approximate optimization algorithm (QAOA) to the quantum state; measuring the resulting quantum state to obtain a candidate solution; and using a classical optimizer to update parameters of the quantum gates."
+    ]
+  },
+  {
+    "id": "US-11333444-B2",
+    "title": "Method for protein structure prediction using a graph neural network",
+    "abstract": "A computational method based on a geometric graph neural network for predicting the three-dimensional structure of a protein from its amino acid sequence. This approach models the protein as a graph of residues and learns the complex spatial relationships and interactions, achieving high accuracy in protein folding prediction.",
+    "inventors": ["Demis Hassabis", "John Jumper"],
+    "publicationDate": "2022-04-12",
+    "relevanceScore": 0.99,
+    "assignee": "DeepMind Technologies Limited",
+    "status": "Active",
+    "cpcCodes": ["G16B 15/00", "G06N 3/04"],
+    "claims": [
+      "1. A computer-implemented method for predicting a protein structure, comprising: representing an amino acid sequence as a graph, wherein nodes represent amino acids and edges represent relationships between amino acids; processing the graph with a graph neural network to generate a predicted three-dimensional coordinate for each amino acid."
+    ]
+  },
+  {
+    "id": "US-11000111-B1",
+    "title": "Blockchain-based system for secure and transparent supply chain tracking",
+    "abstract": "A system that utilizes a distributed ledger technology (blockchain) to create an immutable and transparent record of goods as they move through a supply chain. Each transaction is recorded as a block, providing end-to-end traceability and reducing the risk of fraud and counterfeiting.",
+    "inventors": ["Satoshi Nakamoto", "Vitalik Buterin"],
+    "publicationDate": "2021-09-07",
+    "relevanceScore": 0.82,
+    "assignee": "ChainLink Solutions",
+    "status": "Active",
+    "cpcCodes": ["G06Q 10/087", "H04L 9/06"],
+    "claims": [
+      "1. A system for tracking an item in a supply chain, comprising: a plurality of nodes forming a distributed ledger network; a unique digital identifier associated with the item; and a process for recording a transaction involving the item as a new block on the distributed ledger, wherein the block is cryptographically linked to a previous block."
+    ]
+  },
+  {
+    "id": "US-11701234-B2",
+    "title": "System and method for code generation using a large language model",
+    "abstract": "A system that utilizes a large language model (LLM) specifically fine-tuned on a massive corpus of source code to generate syntactically correct and contextually relevant code snippets from natural language descriptions. The system includes a prompt engineering module and a code validation unit to ensure high-quality output.",
+    "inventors": [
+      "Ilya Sutskever",
+      "Andrej Karpathy"
+    ],
+    "publicationDate": "2024-01-10",
+    "relevanceScore": 0.98,
+    "assignee": "OpenAI, LP",
+    "status": "Active",
+    "cpcCodes": [
+      "G06F 8/34",
+      "G06N 3/08"
+    ],
+    "claims": [
+      "1. A computer-implemented method for generating source code, comprising: receiving a natural language prompt describing a desired functionality; processing the prompt with a large language model trained on a corpus of code to generate a candidate code snippet; and validating the syntactic correctness of the candidate code snippet before outputting it to a user."
+    ]
+  },
+  {
+    "id": "US-11712345-B2",
+    "title": "Image generation using a latent diffusion model",
+    "abstract": "A method for generating high-fidelity images from text prompts using a latent diffusion model. The process involves encoding a text prompt into a latent space, iteratively adding noise to a latent representation, and then using a trained U-Net architecture to reverse the diffusion process and generate a final image. This allows for efficient, high-resolution image synthesis.",
+    "inventors": [
+      "Jonathan Ho",
+      "Tim Salimans"
+    ],
+    "publicationDate": "2023-11-22",
+    "relevanceScore": 0.95,
+    "assignee": "Google LLC",
+    "status": "Active",
+    "cpcCodes": [
+      "G06T 11/00",
+      "G06N 3/0454"
+    ],
+    "claims": [
+      "1. A method for generating an image, comprising: receiving a text prompt; converting the text prompt into a conditioning vector; initializing a random noise tensor in a latent space; and iteratively applying a trained denoising neural network to the noise tensor, conditioned on the conditioning vector, to produce a latent representation of the image."
+    ]
+  },
+  {
+    "id": "US-11723456-B1",
+    "title": "Reinforcement learning from human feedback for robotic manipulation",
+    "abstract": "A system for training a robotic agent to perform complex manipulation tasks. The system employs reinforcement learning (RL) where the reward signal is derived from human feedback. A human operator provides preferential data by comparing pairs of trajectory segments, which is used to train a reward model that guides the RL agent's policy.",
+    "inventors": [
+      "Pieter Abbeel",
+      "Sergey Levine"
+    ],
+    "publicationDate": "2023-08-15",
+    "relevanceScore": 0.91,
+    "assignee": "Covariant AI",
+    "status": "Active",
+    "cpcCodes": [
+      "G05B 13/04",
+      "B25J 9/1697"
+    ],
+    "claims": [
+      "1. A method for training a robotic agent, comprising: collecting a dataset of human preferences between pairs of behavioral segments executed by the agent; training a reward model to predict the human-preferred segment; and updating a policy of the robotic agent using a reinforcement learning algorithm, wherein rewards are provided by the trained reward model."
+    ]
+  },
+  {
+    "id": "US-11734567-B2",
+    "title": "Zero-knowledge proof system for scalable and private blockchain transactions",
+    "abstract": "A system implementing a zero-knowledge succinct non-interactive argument of knowledge (zk-SNARK) to enable private and scalable transactions on a blockchain. The system allows a party to prove that a transaction is valid without revealing any information about the sender, receiver, or amount, and bundles multiple proofs for verification.",
+    "inventors": [
+      "Eli Ben-Sasson",
+      "Silvio Micali"
+    ],
+    "publicationDate": "2024-02-20",
+    "relevanceScore": 0.88,
+    "assignee": "StarkWare Industries Ltd.",
+    "status": "Active",
+    "cpcCodes": [
+      "H04L 9/3239",
+      "G06Q 20/382"
+    ],
+    "claims": [
+      "1. A method for verifying a transaction on a distributed ledger, comprising: generating a zero-knowledge proof attesting to the validity of the transaction, wherein the proof does not reveal transaction details; submitting the zero-knowledge proof to the distributed ledger; and verifying the proof by a verifier node without accessing the transaction details."
+    ]
+  },
+  {
+    "id": "US-11745678-A1",
+    "title": "CAR-T cell therapy with a regulatable safety switch",
+    "abstract": "A chimeric antigen receptor (CAR) T-cell for cancer immunotherapy, engineered to include an inducible safety switch. The safety switch, upon administration of a specific small molecule drug, triggers apoptosis of the CAR-T cells, providing a mechanism to control and mitigate severe side effects such as cytokine release syndrome.",
+    "inventors": [
+      "Carl H. June",
+      "Michel Sadelain"
+    ],
+    "publicationDate": "2023-10-05",
+    "relevanceScore": 0.96,
+    "assignee": "Juno Therapeutics, Inc.",
+    "status": "Pending",
+    "cpcCodes": [
+      "A61K 35/17",
+      "C07K 16/2863"
+    ],
+    "claims": [
+      "1. A genetically engineered T-cell comprising a nucleic acid encoding a chimeric antigen receptor (CAR) and a nucleic acid encoding an inducible caspase safety switch, wherein the CAR is specific for a tumor-associated antigen."
+    ]
+  },
+  {
+    "id": "US-11756789-B2",
+    "title": "Organ-on-a-chip microfluidic device for high-throughput drug screening",
+    "abstract": "A microfluidic device, also known as an organ-on-a-chip, that cultures living human cells in a three-dimensional microenvironment to mimic the physiology of a human organ. The device includes integrated sensors and multiple parallel channels, enabling high-throughput screening of drug compounds for efficacy and toxicity.",
+    "inventors": [
+      "Donald E. Ingber",
+      "Shuichi Takayama"
+    ],
+    "publicationDate": "2022-12-13",
+    "relevanceScore": 0.93,
+    "assignee": "Emulate, Inc.",
+    "status": "Active",
+    "cpcCodes": [
+      "C12M 25/06",
+      "G01N 33/5008"
+    ],
+    "claims": [
+      "1. A microfluidic device comprising: a main channel lined with living organ-specific cells; a plurality of perpendicular channels that mimic blood vessels and allow for the perfusion of culture medium and test compounds; and an integrated sensor for measuring a physiological response of the cells."
+    ]
+  },
+  {
+    "id": "US-11767890-B2",
+    "title": "AI-based diagnostic system for medical imaging",
+    "abstract": "A system for assisting radiologists in the diagnosis of diseases from medical images, such as X-rays or CT scans. The system uses a deep convolutional neural network (CNN) trained on a large dataset of labeled images to identify and highlight potential abnormalities, providing a second opinion to the human expert.",
+    "inventors": [
+      "Geoffrey Hinton",
+      "Yann LeCun"
+    ],
+    "publicationDate": "2023-05-18",
+    "relevanceScore": 0.94,
+    "assignee": "PathAI, Inc.",
+    "status": "Active",
+    "cpcCodes": [
+      "G16H 30/20",
+      "G06T 7/0012"
+    ],
+    "claims": [
+      "1. A method for analyzing a medical image, comprising: inputting the medical image into a trained convolutional neural network; generating a heat map from the neural network, wherein the heat map indicates regions of interest corresponding to potential abnormalities; and overlaying the heat map on the original medical image for display to a medical professional."
+    ]
+  },
+  {
+    "id": "US-11778901-B1",
+    "title": "Synthetic biology platform for programmable gene circuits",
+    "abstract": "A standardized platform for the design and construction of synthetic gene circuits in microorganisms. The platform utilizes a library of well-characterized biological parts (promoters, ribosome binding sites, terminators) that can be assembled in a modular fashion to create predictable and robust genetic programs, analogous to electronic circuits.",
+    "inventors": [
+      "James J. Collins",
+      "George Church"
+    ],
+    "publicationDate": "2022-06-21",
+    "relevanceScore": 0.9,
+    "assignee": "Ginkgo Bioworks",
+    "status": "Active",
+    "cpcCodes": [
+      "C12N 15/63",
+      "G16B 45/00"
+    ],
+    "claims": [
+      "1. A method for constructing a synthetic gene circuit, comprising: selecting a promoter, a ribosome binding site, a coding sequence, and a terminator from a standardized library of biological parts; and assembling the selected parts into an expression vector using a standardized DNA assembly method."
+    ]
+  },
+  {
+    "id": "US-11789012-B2",
+    "title": "Edge computing framework for real-time IoT data processing",
+    "abstract": "A framework for deploying and managing machine learning models on edge devices within an Internet of Things (IoT) network. The framework optimizes models for low-power hardware and orchestrates data processing locally on the edge, reducing latency and bandwidth consumption by only sending high-level insights to the cloud.",
+    "inventors": [
+      "Satya Nadella",
+      "Werner Vogels"
+    ],
+    "publicationDate": "2023-04-11",
+    "relevanceScore": 0.85,
+    "assignee": "Microsoft Technology Licensing, LLC",
+    "status": "Active",
+    "cpcCodes": [
+      "H04L 67/12",
+      "G06N 20/00"
+    ],
+    "claims": [
+      "1. A system for processing data in an IoT network, comprising: a plurality of edge devices, each having a sensor and a local processor; a machine learning model deployed on the local processor of each edge device; and a cloud-based orchestration service for managing the deployment and updating of the machine learning models on the edge devices."
+    ]
+  },
+  {
+    "id": "US-11790123-A1",
+    "title": "Microbiome analysis for personalized nutrition recommendations",
+    "abstract": "A method for providing personalized nutrition advice based on an individual's gut microbiome composition. The method involves sequencing the DNA of a user's gut bacteria to determine its composition, and then using a machine learning model to predict the user's metabolic response to different foods, generating a customized dietary plan.",
+    "inventors": [
+      "Rob Knight",
+      "Eran Segal"
+    ],
+    "publicationDate": "2024-04-02",
+    "relevanceScore": 0.89,
+    "assignee": "Viome Life Sciences, Inc.",
+    "status": "Pending",
+    "cpcCodes": [
+      "G16H 50/20",
+      "A23L 33/135"
+    ],
+    "claims": [
+      "1. A method for generating a personalized dietary recommendation, comprising: obtaining a biological sample from a user; analyzing the sample to determine a composition of the user's gut microbiome; inputting the microbiome composition into a predictive model to forecast the user's glycemic response to a plurality of food items; and generating a dietary plan based on the forecasted glycemic responses."
+    ]
+  },
+  {
+    "id": "US-11801234-B2",
+    "title": "Attention-based neural network for time-series forecasting",
+    "abstract": "A neural network architecture for time-series forecasting that incorporates a self-attention mechanism. The attention mechanism allows the model to dynamically weigh the importance of different past time steps when making a prediction for the future, outperforming traditional recurrent neural networks (RNNs) on long-range dependency tasks.",
+    "inventors": [
+      "Ashish Vaswani",
+      "Yoshua Bengio"
+    ],
+    "publicationDate": "2023-01-24",
+    "relevanceScore": 0.91,
+    "assignee": "Salesforce, Inc.",
+    "status": "Active",
+    "cpcCodes": [
+      "G06N 3/048",
+      "G06F 16/24578"
+    ],
+    "claims": [
+      "1. A method for time-series forecasting, comprising: receiving a sequence of past data points; encoding the sequence into a set of feature vectors; applying a multi-head self-attention mechanism to the feature vectors to compute a context vector; and decoding the context vector using a feed-forward network to produce a future prediction."
+    ]
+  },
+  {
+    "id": "US-11812345-B2",
+    "title": "Next-generation sequencing data compression algorithm",
+    "abstract": "A lossless compression algorithm specifically designed for next-generation sequencing (NGS) data, particularly FASTQ files. The algorithm leverages the inherent structure of genomic data, such as reference-based compression for sequences and context-modeling for quality scores, to achieve significantly higher compression ratios than general-purpose compressors.",
+    "inventors": [
+      "Serafim Batzoglou",
+      "Pavel Pevzner"
+    ],
+    "publicationDate": "2022-10-18",
+    "relevanceScore": 0.87,
+    "assignee": "Illumina, Inc.",
+    "status": "Active",
+    "cpcCodes": [
+      "G16B 30/00",
+      "H03M 7/30"
+    ],
+    "claims": [
+      "1. A method for compressing a FASTQ file, comprising: separating the file into streams for read identifiers, nucleotide sequences, and quality scores; compressing the nucleotide sequence stream using a reference-based compression technique; and compressing the quality score stream using an arithmetic coder with a context-dependent probability model."
+    ]
+  }
+]
