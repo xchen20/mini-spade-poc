@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { prisma } from 'prisma';
+import { prisma } from '@/lib/prisma';
 import type { Patent } from '@/types/patent';
 
 type Data = {
@@ -47,8 +47,14 @@ export default async function handler(
       .map(p => {
         const targetKeywords = new Set(p.abstract.toLowerCase().replace(/[.,]/g, '').split(/\s+/));
         const overlap = [...sourceKeywords].filter(keyword => targetKeywords.has(keyword)).length;
-        // We need to manually format the date for the response
-        return { ...p, publicationDate: p.publicationDate.toISOString().split('T')[0], similarity: overlap };
+        // We need to manually format the data to match the frontend `Patent` type.
+        return {
+          ...p,
+          publicationDate: p.publicationDate.toISOString().split('T')[0],
+          assignee: p.assignee ?? undefined,
+          status: p.status ?? undefined,
+          similarity: overlap
+        };
       })
       .filter(p => p.similarity > 1) // Require at least 2 keyword overlaps
       .sort((a, b) => b.similarity - a.similarity) // Sort by similarity score
